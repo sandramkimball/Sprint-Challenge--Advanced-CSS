@@ -81,3 +81,32 @@
     }
   }
 }// home
+
+@media @phone{
+  .home{
+    // max-width: @phone;
+    // margin: 0 auto;
+    .intro{
+      img .headerImage {
+        width: 90%;
+        overflow: hidden;
+        border: 3px solid orange;      
+      }
+      width: 100%;
+    .space-images img{
+      .sky{display: none;}
+      .launch{display: none;}
+    } 
+  }
+    .walk{
+      flex-direction: column-reverse;
+      align-content: center;
+      .walk-img{width: 100%; margin: 0;}
+      .walk-text{
+        margin-top: 2em;
+        width: 100%;
+        .btn{width: 100%;}
+      }
+    }
+  }
+}

@@ -137,7 +137,7 @@ table {
 body .navigation {
   padding: 1em 0;
   flex-direction: column;
-  background: #f4f4f4;
+  background-color: #f4f4f4;
   display: flex;
   justify-content: center;
 }
@@ -227,6 +227,37 @@ body .navigation nav a {
   width: 100%;
   height: auto;
   border-radius: 10px;
+}
+@media (max-width: 800px) {
+  .home .intro {
+    width: 100%;
+  }
+  .home .intro img .headerImage {
+    width: 90%;
+    overflow: hidden;
+    border: 3px solid orange;
+  }
+  .home .intro .space-images img .sky {
+    display: none;
+  }
+  .home .intro .space-images img .launch {
+    display: none;
+  }
+  .home .walk {
+    flex-direction: column-reverse;
+    align-content: center;
+  }
+  .home .walk .walk-img {
+    width: 100%;
+    margin: 0;
+  }
+  .home .walk .walk-text {
+    margin-top: 2em;
+    width: 100%;
+  }
+  .home .walk .walk-text .btn {
+    width: 100%;
+  }
 }
 * {
   box-sizing: border-box;
