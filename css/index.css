@@ -307,3 +307,16 @@ footer {
   justify-content: center;
   align-items: center;
 }
+.blog-posts {
+  margin: 10% auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.blog-posts .post1 img {
+  border-radius: 10px;
+  width: 48%;
+}
+.blog-posts .post1 p {
+  width: 50%;
+}
