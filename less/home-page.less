@@ -55,10 +55,15 @@
       }
 
       .btn {
-        color: red;
-        font-size: 30px;
-        // @buttonStyle(1em, @ebony-clay, 2rems;)
-        // &:hover{@buttonHover}
+        color: @button-font;
+        width: 40%;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        .buttonStyle(.5em 1em, @ebony-clay, 1.8rem);
+        &:hover{
+          .buttonHover()
+        }
       }
     }
 

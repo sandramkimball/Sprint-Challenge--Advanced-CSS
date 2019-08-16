@@ -126,6 +126,29 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+.buttonHover {
+  background-color: #fff;
+  color: #22283A;
+}
+.headerStyle {
+  font-family: 'Russo One', sans-serif;
+  color: #23293B;
+}
+body .navigation {
+  margin: 1em auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+body .navigation h1 {
+  font-size: 30px;
+  font-family: 'Russo One', sans-serif;
+  color: #23293B;
+}
+body .navigation nav a {
+  text-decoration: none;
+  font-size: 17px;
+}
 .home .intro h2 {
   padding: 15px;
 }
@@ -167,6 +190,20 @@ table {
 }
 .home .walk .walk-text p {
   margin-bottom: 26px;
+}
+.home .walk .walk-text .btn {
+  color: #fff;
+  width: 40%;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  padding: 0.5em 1em;
+  background-color: #23293B;
+  font-size: 1.8rem;
+}
+.home .walk .walk-text .btn:hover {
+  background-color: #fff;
+  color: #22283A;
 }
 .home .walk .walk-img {
   width: 46%;
