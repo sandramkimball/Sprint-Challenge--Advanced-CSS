@@ -307,16 +307,30 @@ footer {
   justify-content: center;
   align-items: center;
 }
-.blog-posts {
-  margin: 10% auto;
+.blog {
+  margin: 5% auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-.blog-posts .post1 img {
-  border-radius: 10px;
-  width: 48%;
+.blog .post {
+  margin: 5em auto;
+  max-width: 800px;
+  border: 1px solid #23293B;
+  padding: 2em;
+  flex-direction: column;
+  justify-content: center;
 }
-.blog-posts .post1 p {
-  width: 50%;
+.blog .post h4 {
+  font-size: 1.2rem;
+}
+.blog .post img {
+  border-radius: 10px;
+  width: 100%;
+}
+.blog .post .entry {
+  padding: 2em;
+}
+.blog .post .entry p {
+  padding: 1em 0;
 }

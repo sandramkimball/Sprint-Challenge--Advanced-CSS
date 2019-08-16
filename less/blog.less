@@ -1,17 +1,24 @@
 
-
-.blog-posts {
-    margin: 10% auto;
+.blog {
+    margin: 5% auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    .post1{
+    .post{
+        margin: 5em auto;
+        max-width: 800px;
+        border: 1px solid @header-font-color;
+        padding: 2em; 
+        flex-direction: column;
+        justify-content: center;
+        h4{font-size: 1.2rem}
         img{
             border-radius: 10px;
-            width: 48%;
+            width: 100%;
         }
-        p{
-            width: 50%;
+        .entry{
+            padding: 2em;
+            p{padding: 1em 0;}
         }
     }
 }
