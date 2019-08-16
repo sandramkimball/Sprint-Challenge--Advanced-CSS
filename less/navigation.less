@@ -1,18 +1,29 @@
 // Navigation code here
 
 body .navigation {
-    margin: 1em auto;
+    padding: 1em 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    background: #f4f4f4;
+    display: flex;
+    justify-content: center;
     h1{
-    font-size: 30px;
-    .headerStyle();
+        margin: 0 auto;
+        font-size: 4rem;
+        .headerStyle();
     }
-    nav a{
-        // display: flex;
-        // justify-content: space-between;
-        text-decoration: none;
-        font-size: 17px;
+    nav {
+        margin: 0 auto;
+        padding-top: 1em;
+        max-width: 400px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        a {
+            text-decoration: none;
+            font-size: 17px;
+            color: @header-font-color;
+        }
     }
 }

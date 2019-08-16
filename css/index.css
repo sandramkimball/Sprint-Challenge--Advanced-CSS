@@ -135,25 +135,39 @@ table {
   color: #23293B;
 }
 body .navigation {
-  margin: 1em auto;
-  display: flex;
+  padding: 1em 0;
   flex-direction: column;
+  background: #f4f4f4;
+  display: flex;
   justify-content: center;
 }
 body .navigation h1 {
-  font-size: 30px;
+  margin: 0 auto;
+  font-size: 4rem;
   font-family: 'Russo One', sans-serif;
   color: #23293B;
+}
+body .navigation nav {
+  margin: 0 auto;
+  padding-top: 1em;
+  max-width: 400px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
 }
 body .navigation nav a {
   text-decoration: none;
   font-size: 17px;
+  color: #23293B;
 }
 .home .intro h2 {
   padding: 15px;
 }
 .home .intro p {
   padding: 0 15px;
+}
+.home img {
+  border-radius: 10px;
 }
 .home .space-images {
   display: flex;
@@ -193,7 +207,7 @@ body .navigation nav a {
 }
 .home .walk .walk-text .btn {
   color: #fff;
-  width: 40%;
+  width: 30%;
   border-radius: 10px;
   display: flex;
   justify-content: center;
